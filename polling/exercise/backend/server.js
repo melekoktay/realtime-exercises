@@ -30,7 +30,7 @@ app.get("/poll", function (req, res) {
 
 app.post("/poll", function (req, res) {
   // add a new message to the server
-  // write code here
+  // write code here 
   const { user, text } = req.body;
 
   msg.push({
